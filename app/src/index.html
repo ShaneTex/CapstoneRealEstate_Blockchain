@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Capstone Real Estate DAPP</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<style>
+  input {
+    display: block;
+    margin-bottom: 12px;
+  }
+</style>
+<body>
+<h1>Capstone Real Estate Token DAPP</h1>
+
+<hr>
+
+<br>
+<h1>Create a Token for Open Sea</h1>
+<br><label for="tokenId">Token Id:</label><input type="text" id="tokenId"></input>
+<br><br><button id="createToken" onclick="App.createToken()">Create Token</button>
+<br>
+<hr>
+<br>
+<h1>Look up a Token</h1>
+<br><label for="lookid">Address:</label><input type="text" id="lookid" style="width:300px;"></input>
+<br><br><button onclick="App.lookUp()">Look Up Balance a Token</button>
+<hr>
+<br>
+<span id="status"></span>
+<br>
+<script src="index.js"></script>
+</body>
+</html>
