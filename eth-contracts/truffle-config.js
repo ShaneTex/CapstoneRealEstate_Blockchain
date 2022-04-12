@@ -23,8 +23,7 @@ const infuraKey = "202f02b5421a4230b6f47443ac856178";
 //
 // const fs = require('fs');
 //const mnemonic = fs.readFileSync(".secret").toString().trim();
-const mnemonic = "control fitness food load into barely diamond pony this spare minor guess";
-//const mnemonic = "poem panther panel volcano giggle metal enough breeze ring corn sound rural";
+const mnemonic = "poem panther panel volcano giggle metal enough breeze ring corn sound rural";
 
 
 module.exports = {
